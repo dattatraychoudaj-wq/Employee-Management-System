@@ -1,62 +1,83 @@
 # Employee Management System
 
 ## Project Overview
-The Employee Management System is a web-based application designed to manage employee information efficiently. It helps administrators maintain employee records and simplify employee management activities.
+
+The Employee Management System is a Java-based application designed to manage employee records efficiently. It provides basic operations for adding, removing, updating, and viewing employee details.
+
+This project is developed using **Java and Object-Oriented Programming (OOP) concepts**.
 
 ## Features
-- Employee Registration
-- Employee Login
-- Add Employee Details
-- Update Employee Information
-- Delete Employee Records
-- View Employee Details
-- Employee Management Dashboard
+
+- Add new employee details
+- Remove employee records
+- Update existing employee information
+- View employee details
+- Simple text-based user interface (TUI)
 
 ## Technologies Used
-- Frontend: HTML, CSS, JavaScript
-- Backend: Add your actual backend technology
-- Database: Add your actual database
-- Version Control: Git and GitHub
+
+- **Programming Language:** Java
+- **Concepts:** Object-Oriented Programming (OOP)
+- **Version Control:** Git and GitHub
 
 ## Project Structure
-Add your actual project folder structure here.
+
+```text
+Employee-Management-System/
+│
+├── EmployManagementSystem.java
+├── Images/
+│   └── Java.png
+└── README.md
+```
+
+*Note: Update this structure if your actual repository contains different files or folders.*
 
 ## Installation and Setup
 
-1. Clone the repository:
-   `git clone YOUR_GITHUB_REPOSITORY_URL`
+### 1. Clone the repository
 
-2. Navigate to the project directory:
-   `cd employee-management-system`
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
 
-3. Install the required dependencies according to the project technology.
+### 2. Navigate to the project directory
 
-4. Configure the database connection.
+```bash
+cd Employee-Management-System
+```
 
-5. Start the application using the instructions for your framework.
+### 3. Compile the Java program
+
+```bash
+javac EmployManagementSystem.java
+```
+
+### 4. Run the application
+
+```bash
+java EmployManagementSystem
+```
 
 ## Future Enhancements
-- Role-based authentication
-- Employee attendance tracking
-- Leave management
-- Employee performance reports
+
+- Add employee login and authentication
+- Integrate a database for storing employee records
+- Implement employee attendance management
+- Add a graphical user interface (GUI)
+- Generate employee reports
+
+## Learning Outcomes
+
+- Understanding Java programming
+- Applying Object-Oriented Programming concepts
+- Working with employee data operations
+- Using Git and GitHub for version control
 
 ## Author
-Dattatray Choudaj
+
+**Dattatray Choudaj**
 
 ## License
+
 Specify the applicable project license.
-
-
-
-This repository consists of Java Program for Employee Management System. In this repository I have created a TUI program for Employee Management System which consists of 4 different operation.<br>
-(1) Adding User<br>  (2) Removing User<br> (3) Updating User<br>  (4) Viewing details of User
-
-The Program is completely based on OOPs concept.
-
-<img src="Images/Java.png">
-
-# How to run ?
-For Compliation : <code>javac EmployManagementSystem.java</code>
-
-To Run Program  : <code>java EmployManagementSystem</code>
